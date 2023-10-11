@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Super Safe Profile</title>
+ 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+
+<body>
+    <div class="background">
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+    <form action = '/' method = 'get'>
+        <h3>Welcome,</h3>
+        <br>
+        <h1>Here you can find all your sensitive data that you DON'T want being moved, deleted, or otherwise manipulated.</h1>
+        <br>
+        <h3>Username:</h3>
+        <h1>{{ data[0] }}</h1>
+
+        <h3>Password:</h3>
+        <h1>{{ data[1] }}</h1>
+
+        <input type="submit" value="LOG OUT">
+    </form>
+</body>
+</html>
